@@ -49,7 +49,7 @@
 		
 		setInterval(function(){
 			var dataTab= $('.itemDot.active').data("tab");
-			if(dataTab>6||i>6){
+			if(dataTab>4||i>4){
 			dataTab=1;
 			i=1;
 			}
@@ -59,11 +59,12 @@
 			$( '.CirItem'+i).addClass('active');
 			i++;
 			
-			
+			//Fait tourner le carré sur lui-meme
 			$('.dotCircle').css({
 				"transform":"rotate("+(360-(i-2)*36)+"deg)",
 				"transition":"2s"
 			});
+            //Fait tourner les carrés sur le cercle
 			$('.itemDot').css({
 				"transform":"rotate("+((i-2)*36)+"deg)",
 				"transition":"1s"
@@ -72,5 +73,3 @@
 			}, 5000);
 		
 	});
-
-
