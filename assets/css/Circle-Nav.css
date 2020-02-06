@@ -83,6 +83,7 @@
   border: 2px dotted #008191;
   border-radius: 100%;
   -webkit-animation: rotation 100s infinite linear;
+  display: none;
 }
 
 .dotCircle .itemDot:hover, .dotCircle .itemDot.active {
@@ -140,11 +141,11 @@
 }
 
 .contentCircle .CirItem i {
-  font-size: 180px;
+  font-size: 120px;
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -90px;
+  margin-left: -60px;
   color: #000000;
   opacity: 0.1;
 }
