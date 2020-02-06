@@ -69,6 +69,7 @@
 
 .photo-tags li {
   margin: 0 0.35em 0.35em 0;
+  display: none;
 }
 
 .photo-tags a {
