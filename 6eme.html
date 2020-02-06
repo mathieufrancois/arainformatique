@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Bold-BS4-Animated-Back-To-Top.css">
+    <link rel="stylesheet" href="assets/css/Central-Aligned-Clear-Nav.css">
     <link rel="stylesheet" href="assets/css/Circle-Nav.css">
     <link rel="stylesheet" href="assets/css/dh-card-image-left-dark.css">
+    <link rel="stylesheet" href="assets/css/Dot-nav-scroll-with-label-1.css">
+    <link rel="stylesheet" href="assets/css/Dot-nav-scroll-with-label.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/footer-copyright_bar.css">
     <link rel="stylesheet" href="assets/css/Navbar-with-menu-and-login.css">
@@ -34,59 +40,67 @@
                     <li class="nav-item" role="presentation"></li>
                 </ul><a class="btn btn-primary" role="button" style="background-color: rgb(0, 129, 145);" href="contact.html">Contact</a></div>
         </div>
-    </nav><section class="iq-features">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-lg-3 col-md-12"></div>
-                  <div class="col-lg-6 col-md-12">
-                     <div class="holderCircle">
-                        <div class="round"></div>
-                        <div class="dotCircle">
-                           <span class="itemDot active itemDot1" data-tab="1">
-                           <i class="fab fa-python"></i>
-                           <span class="forActive"></span>
-                           </span>
-                           <span class="itemDot itemDot2" data-tab="2">
-                           <i class="fab fa-html5"></i>
-                           <span class="forActive"></span>
-                           </span>
-                           <span class="itemDot itemDot3" data-tab="3">
-                           <i class="fas fa-table"></i>
-                           <span class="forActive"></span>
-                           </span>
-                           <span class="itemDot itemDot4" data-tab="4">
-                           <i class="fas fa-desktop"></i>
-                           <span class="forActive"></span>
-                           </span>
+    </nav>
+    <div>
+        <div id="dot-nav" class="affix" data-spy="affix">
+            <ul class="list-group">
+                <li class="list-group-item awesome-tooltip active" title="Home"><a href="#home"> </a></li>
+                <li class="list-group-item awesome-tooltip" title="About"><a href="#about"> </a></li>
+                <li class="list-group-item awesome-tooltip" title="Projects"><a href="#projects"> </a></li>
+                <li class="list-group-item awesome-tooltip" title="Contact"><a href="#contact"> </a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <section id="home" style="color: #8b381d;background-color: #F36333;padding: 30px;">
+                <div class="container">
+                    <article>
+                        <div class="row">
+                            <div class="col">
+                                <h1>HTML / CSS / JS</h1>
+                                <p>Paragraph</p>
+                            </div>
                         </div>
-                        <div class="contentCircle">
-                           <div class="CirItem title-box active CirItem1">
-                              <h2 class="title"><span>Python</span></h2>
-                              <!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
-                              <i class="fab fa-python"></i>
-                           </div>
-                           <div class="CirItem title-box CirItem2">
-                              <h2 class="title"><span>HTML/CSS</span></h2>
-                              <!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
-                              <i class="fab fa-html5"></i>
-                           </div>
-                           <div class="CirItem title-box CirItem3">
-                              <h2 class="title"><span>Excel</span></h2>
-                              <!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
-                              <i class="fas fa-table"></i>
-                           </div>
-                           <div class="CirItem title-box CirItem4">
-                              <h2 class="title"><span>S.I.</span></h2>
-                              <!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
-                              <i class="fas fa-desktop"></i>
-                           </div>
+                    </article>
+                </div>
+            </section>
+            <section id="about" style="padding: 30px;background-color: #B92538;color: #741723;">
+                <div class="container">
+                    <article>
+                        <div class="row">
+                            <div class="col">
+                                <h1>Access</h1>
+                                <p>Paragraph</p>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-12"></div>
-               </div>
-            </div>
-        </section>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" style="padding: 30px;color: #004324;background-color: #007D43;">
+                <div class="container">
+                    <article>
+                        <div class="row">
+                            <div class="col">
+                                <h1>Excel</h1>
+                                <p>Paragraph</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="contact" style="padding: 30px;background-color: #cc1e4c;color: #76112c;">
+                <div class="container">
+                    <article>
+                        <div class="row">
+                            <div class="col">
+                                <h1>Raspberry Pi / Arduino</h1>
+                                <p>Paragraph</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div><a class="cd-top js-cd-top cd-top--fade-out cd-top--show" style="background-image:url(&quot;assets/img/cd-top-arrow.svg&quot;);" href="#0">Top</a>
     <div class="footer-basic" style="margin-top: 69px;">
         <footer>
             <p class="copyright">Athénée Royal Arlon - Option informatique</p>
@@ -95,7 +109,10 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Bold-BS4-Animated-Back-To-Top.js"></script>
     <script src="assets/js/Circle-Nav.js"></script>
+    <script src="assets/js/Dot-nav-scroll-with-label.js"></script>
+    <script src="assets/js/Navbar---Color-Change-on-Scroll.js"></script>
     <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
 </body>
 
