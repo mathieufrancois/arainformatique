@@ -4,6 +4,7 @@
   border-radius: 100%;
   margin: 60px auto;
   position: relative;
+  margin-top: 0;
 }
 
 .dotCircle {
