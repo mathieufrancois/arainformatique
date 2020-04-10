@@ -81,3 +81,15 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .contentCircle .CirItem i {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #Rectangle-4 {
+    fill: lightgray;
+  }
+}
+

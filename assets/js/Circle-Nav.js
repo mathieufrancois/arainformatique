@@ -46,7 +46,7 @@
 			
 			
 		});
-		/*
+		
 		setInterval(function(){
 			var dataTab= $('.itemDot.active').data("tab");
 			if(dataTab>4||i>4){
@@ -70,6 +70,6 @@
 				"transition":"1s"
 			});
 			
-			}, 5000);*/
+			}, 5000);
 		
 	});
