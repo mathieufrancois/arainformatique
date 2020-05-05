@@ -14,7 +14,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  p, .copyright, .blog-slider__text, .navigation-clean.navbar-light .navbar-nav .nav-link, .footer-basic .copyright {
+  p, .copyright, .blog-slider__text, .navigation-clean.navbar-light .navbar-nav .nav-link, .footer-basic .copyright, .photo-details ol li {
     color: lightgray;
   }
 }

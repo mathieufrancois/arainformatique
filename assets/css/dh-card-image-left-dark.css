@@ -86,7 +86,7 @@
   color: #e37544;
 }
 
-.photo-details p {
+.photo-details p, .photo-details ol li {
   color: white;
 }
 
