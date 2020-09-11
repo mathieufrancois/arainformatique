@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulstruct.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <form action="contact.php" method="post" style="width: 70%;">
+       
+       <div class="flex">
+            <label for="Surname">Nom de famille :</label>
+            <input type="text" name="surname" id="Nom" class="Names" placeholder="Poulain">
+            <label for="Name">Prénom :</label>
+            <input type="text" name="name" id="Prénom" class="Names" placeholder="Thomas">
+            <label for="Birth">Date de naissance :</label>
+            <input type="date" name="birth" id="Naissance" class="Names" required>
+       </div>
+                
+       
+       <div class="flex">  
+            <label for="email">E-mail :</label>
+            <input type="text" name="mail" id="ead" class="coords" placeholder="thomas.poulain@gmail.com">
+            <label for="tel">Numéro de téléphone :</label>
+            <input type="text" name="num" id="tel" class="coords" placeholder="0485600435">
+            </div>
+         
+       <div class="flex">
+            <label for="road">Rue :</label>
+            <input type="text" name="street" id="rue" class="adress" placeholder="3 Rue de la Vierge Noire">
+            <label for="num">Code postal :</label>
+            <input type="number" name="postal" id="code" class="adress" placeholder="6700">
+            <label for="town">Nom de ville :</label>
+            <input type="text" name="ville" id="vilnam" class="adress" placeholder="Arlon" >
+            <label for="pays"> Pays :</label>
+            <select id="country">
+                 <option value= "1">Allemagne</option>
+                 <option value= "2">Belgique</option>
+                 <option value= "3">France</option>
+                 <option value= "4">Luxembourg</option>
+                 <option value= "5">Pays-Bas</option>
+            </select>
+            <input type="submit" value="Valider">
+       
+            </div>
+    </form>
+</body>
+
+</html>
