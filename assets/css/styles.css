@@ -1,0 +1,127 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  padding-top: 10vh;
+}
+
+#hero {
+  background: linear-gradient(#fff, #1984d1);
+  display: table;
+  max-height: 90vh;
+  height: 90vh;
+  width: 100%;
+}
+
+.navbar-brand {
+  background: url("../../assets/img/logoDonovan.svg") center / 80% no-repeat;
+  width: 150px;
+  height: 50px;
+}
+
+#navcol-1 {
+  font-size: 14px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#headings {
+  display: table-row;
+}
+
+#gif-div {
+  display: table-row;
+}
+
+#printer-gif {
+  object-fit: scale-down;
+  display: inline-table;
+}
+
+#h1 {
+  display: table-row;
+  font-weight: 800;
+}
+
+#h2 {
+  display: table-row;
+}
+
+.product-img.img-responsive {
+  display: block;
+}
+
+.product-div {
+  border: 2px solid #1984d1;
+  background: rgb(226,243,255);
+  border-radius: 5px;
+}
+
+#products-section {
+  background: linear-gradient(#1984d1,#8ac2eb);
+}
+
+.product-name {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.product-price {
+  font-size: x-large;
+}
+
+@media (min-width: 300px) {
+  #printer-gif {
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #printer-gif {
+    height: 73%;
+  }
+}
+
+@media (min-width: 992px) {
+  #printer-gif {
+    height: 58%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #printer-gif {
+    height: 48%;
+  }
+}
+
+#presentation-section {
+  background: linear-gradient(#8ac2eb,#1984d1);
+}
+
+#footer-section {
+  background: linear-gradient(#1984d1, #000);
+}
+
+#navcol-1 {
+  background-color: rgb(255, 255,255, 0.4);
+}
+
+.navbar-nav {
+  background-color: rgb(255, 255,255, 0.4);
+}
+
+h1 {
+  font-weight: bolder;
+}
+
+video {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 4px solid white;
+  border-radius: 20px;
+}
+
+p {
+  width: 95%;
+  margin: auto;
+}
+
